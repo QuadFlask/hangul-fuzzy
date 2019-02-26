@@ -2,6 +2,7 @@
   "name": "hangul-fuzzy-react",
   "version": "0.1.0",
   "private": true,
+  "homepage": ".",
   "dependencies": {
     "fuse.js": "^3.4.2",
     "fuzzy-search": "^3.0.1",
