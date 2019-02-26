@@ -253,7 +253,14 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <input type="text" onChange={this.onChange} value={this.state.query} />
+        <label>
+          나라이름:
+          <input
+            type="text"
+            onChange={this.onChange}
+            value={this.state.query}
+          />
+        </label>
         <List data={this.state.result} />
       </div>
     );
